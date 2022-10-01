@@ -1,0 +1,18 @@
+num1 = int(input('->'))
+num2 = int(input('->'))
+
+while num1 < num2:
+    if num1 % 3 == 0:
+        print('Fizz')
+    elif num1 & 5 == 0:
+        print('Buzz')
+    elif num1 % 3 == 0:
+        if num1 % 5 == 0:
+            print('Fizz Buzz')
+    elif num1 % 3 == 1:
+        if num1 % 5 == 1:
+            print('')
+
+
+
+
